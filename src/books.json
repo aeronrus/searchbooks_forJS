@@ -1,0 +1,733 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 449,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "qBxhhMkSLRMC",
+      "etag": "ehw0oRPsYhE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qBxhhMkSLRMC",
+      "volumeInfo": {
+        "title": "Trippings in Author-land",
+        "authors": ["Emily Chubbuck Judson"],
+        "publishedDate": "1846",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:32044019377837"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 298,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.7.7.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qBxhhMkSLRMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qBxhhMkSLRMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=qBxhhMkSLRMC&pg=PA98&dq=flowers+inauthor&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=qBxhhMkSLRMC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qBxhhMkSLRMC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=qBxhhMkSLRMC&rdid=book-qBxhhMkSLRMC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.ru/books/download/Trippings_in_Author_land.epub?id=qBxhhMkSLRMC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.ru/books/download/Trippings_in_Author_land.pdf?id=qBxhhMkSLRMC&hl=&output=pdf&sig=ACfU3U2ecOY2qN_n_Yb4XgK-xWCBidj18g&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qBxhhMkSLRMC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The trees budded and leaved ; \u003cb\u003eflowers\u003c/b\u003e bloomed and faded , leaving their places to brighter \u003cb\u003eflowers\u003c/b\u003e still ; the brooks frolicked and jostled their tiny drops together ; and the birds answered back from ten thousand fresh green coverts&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "oAXHCgAAQBAJ",
+      "etag": "a+n4P059Hek",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/oAXHCgAAQBAJ",
+      "volumeInfo": {
+        "title": "AngularJS for .NET Developers in 24 Hours, Sams Teach Yourself",
+        "authors": ["Dennis Sheppard", "Christopher Miller", "AJ Liptak"],
+        "publisher": "Sams Publishing",
+        "publishedDate": "2015-10-19",
+        "description": "In just 24 sessions of one hour or less, you will be up and running with AngularJS in your Microsoft .NET environment. Using a straightforward, step-by-step approach, each lesson builds on your .NET skills and knowledge, helping you quickly learn the essentials of AngularJS, and use it to streamline any web development project. Step-by-step instructions carefully walk you through the most common questions, issues, and tasks. Q&A sections, quizzes, and exercises help you build and test your knowledge. By The Way notes present interesting pieces of information. Try it Yourself sidebars offer advice or teach an easier way to do something. Watch Out! cautions advise you about potential problems and help you steer clear of disaster. Dennis Sheppard is a Front-End Architect at NextTier Education in Chicago, IL. He has delivered enterprise solutions for the private equity, insurance, healthcare, education, and distribution industries. Christopher Miller is an Architect at West Monroe Partners. He has built solutions for the higher education, private equity, and renewable energy industries. AJ Liptak, is a Senior Consultant at West Monroe Partners specializing in modern web application development. He has delivered transformative solutions for the telecom, healthcare, finance, and distribution industries. Learn how to... Build AngularJS web apps from scratch, or integrate with existing .NET code Organize, reuse, and test JavaScript web application code far more effectively Discover key JavaScript design patterns that support AngularJS (and their similarities to C#) Use AngularJS modules, controllers, views, data-binding, and event handling Implement AngularJS services efficiently Work with directives, custom directives, and dependency injection Set up AngularJS routing Apply best practices for organizing AngularJS applications Master sophisticated AngularJS techniques, including filters, advanced patterns, and communication between controllers Deploy AngularJS code to the Microsoft Azure cloud Unit-test and debug your single page applications Integrate AngularJS with .NET Web Forms and .NET MVC Build REST APIs in .NET and consume their services in AngularJS Combine AngularJS with .NET SignalR to build real-time web apps Extend AngularJS development with bower, gulp, and webstorm Preview the future of AngularJS: Version 2.0 and beyond",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780134315058"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0134315057"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 400,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=oAXHCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=oAXHCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=oAXHCgAAQBAJ&pg=PT123&dq=flowers+inauthor&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=oAXHCgAAQBAJ&dq=flowers+inauthor&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/AngularJS_for_NET_Developers_in_24_Hours.html?hl=&id=oAXHCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/AngularJS_for_NET_Developers_in_24_Hours-sample-epub.acsm?id=oAXHCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/AngularJS_for_NET_Developers_in_24_Hours-sample-pdf.acsm?id=oAXHCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=oAXHCgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "For example, https://www.googleapis.com/books/v1/volumes? q=\u003cb\u003eflowers\u003c/b\u003e+\u003cb\u003einauthor\u003c/b\u003e:keyes will search for any title containing the string “\u003cb\u003eflowers\u003c/b\u003e” by an author that matches the name “keyes”, such as \u003cb\u003eFlowers\u003c/b\u003e for Algernon. Hour 9."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Q-LQCwAAQBAJ",
+      "etag": "ULWNSbHJs80",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Q-LQCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Freedom's Orator",
+        "subtitle": "Mario Savio and the Radical Legacy of the 1960s",
+        "authors": ["Robert Cohen"],
+        "publisher": "Oxford University Press",
+        "publishedDate": "2009-08-27",
+        "description": "Here is the first biography of Mario Savio, the brilliant leader of Berkeley's Free Speech Movement, the largest and most disruptive student rebellion in American history. Savio risked his life to register black voters in Mississippi in the Freedom Summer of 1964 and did more than anyone to bring daring forms of non-violent protest from the civil rights movement to the struggle for free speech and academic freedom on American campuses. Drawing upon previously unavailable Savio papers, as well as oral histories from friends and fellow movement leaders, Freedom's Orator illuminates Mario's egalitarian leadership style, his remarkable eloquence, and the many ways he embodied the youthful idealism of the 1960s. The book also narrates, for the first time, his second phase of activism against \"Reaganite Imperialism\" in Central America and the corporatization of higher education. Including a generous selection of Savio's speeches, Freedom's Orator speaks with special relevance to a new generation of activists and to all who cherish the '60s and democratic ideals for which Savio fought so selflessly.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780199720354"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0199720355"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 544,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Q-LQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Q-LQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=Q-LQCwAAQBAJ&pg=PA478&dq=flowers+inauthor&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Q-LQCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Q-LQCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1724.28,
+          "currencyCode": "RUB"
+        },
+        "retailPrice": {
+          "amount": 1551.85,
+          "currencyCode": "RUB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Q-LQCwAAQBAJ&rdid=book-Q-LQCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1724280000,
+              "currencyCode": "RUB"
+            },
+            "retailPrice": {
+              "amountInMicros": 1551850000,
+              "currencyCode": "RUB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Freedom_s_Orator-sample-pdf.acsm?id=Q-LQCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Q-LQCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Mario Savio, “3 a.m.,” unpublished poem, October 19, 1977, copy \u003cb\u003ein author&#39;s\u003c/b\u003e possession. Savio&#39;s poems are the only introspective writings ... “I believe in the coming of dead \u003cb\u003eflowers\u003c/b\u003e,” unpublished poem, copy \u003cb\u003ein author&#39;s\u003c/b\u003e possession. 6."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2SYhAQAAIAAJ",
+      "etag": "U/2MaQNsR+k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2SYhAQAAIAAJ",
+      "volumeInfo": {
+        "title": "Catalog of Copyright Entries",
+        "subtitle": "Third series",
+        "authors": ["Library of Congress. Copyright Office"],
+        "publishedDate": "1951",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105006281351"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 672,
+        "printType": "BOOK",
+        "categories": ["Copyright"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.9.9.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2SYhAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2SYhAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=2SYhAQAAIAAJ&pg=PA148&dq=flowers+inauthor&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2SYhAQAAIAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2SYhAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=2SYhAQAAIAAJ&rdid=book-2SYhAQAAIAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.ru/books/download/Catalog_of_Copyright_Entries.epub?id=2SYhAQAAIAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2SYhAQAAIAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Alice in Wonderland meets the enchant- ed \u003cb\u003eflowers\u003c/b\u003e . ( Playing card art work ) Col. reproductions of painting . ... White Rabbit and the \u003cb\u003eflowers\u003c/b\u003e . ... 7 x 7 \u003cb\u003ein . Author\u003c/b\u003e of reproduction : Brown and Bigelow . Brown &amp; Bigelow , St. Paul&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VeQaBwAAQBAJ",
+      "etag": "0XJuQB+0nhY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VeQaBwAAQBAJ",
+      "volumeInfo": {
+        "title": "Tell about Night Flowers",
+        "subtitle": "Eudora Welty's Gardening Letters, 1940-1949",
+        "authors": ["Julia Eichelberger"],
+        "publisher": "Univ. Press of Mississippi",
+        "publishedDate": "2013-05-01",
+        "description": "Tell about Night Flowers presents previously unpublished letters by Eudora Welty, selected and annotated by scholar Julia Eichelberger. Welty published many of her best-known works in the 1940s: A Curtain of Green, The Wide Net, The Robber Bridegroom, Delta Wedding, and The Golden Apples. During this period, she also wrote hundreds of letters to two friends who shared her love of gardening. One friend, Diarmuid Russell, was her literary agent in New York; the other, John Robinson, was a high school classmate and an aspiring writer who served in the Army in WWII, and he was long the focus of Welty’s affection. Welty’s lyrical, witty, and poignant discussions of gardening and nature are delightful in themselves; they are also figurative expressions of Welty’s views of her writing and her friendships. Taken together with thirty-five illustrations, they form a poetic narrative of their own, chronicling artistic and psychic developments that were underway before Welty was fully conscious of them. By 1949 her art, like her friendships, had evolved in ways that she would never have predicted in 1940. Tell about Night Flowers not only lets readers glimpse Welty in her garden; it also reveals a brilliant and generous mind responding to the public events, people, art, and natural landscapes Welty encountered at home and on her travels during the 1940s. This book enhances our understanding of the life, landscape, and art of a major American writer.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781617031885"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1617031887"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 304,
+        "printType": "BOOK",
+        "categories": ["Literary Collections"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VeQaBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VeQaBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=VeQaBwAAQBAJ&pg=PA230&dq=flowers+inauthor&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VeQaBwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VeQaBwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1787.25,
+          "currencyCode": "RUB"
+        },
+        "retailPrice": {
+          "amount": 1787.25,
+          "currencyCode": "RUB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VeQaBwAAQBAJ&rdid=book-VeQaBwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1787250000,
+              "currencyCode": "RUB"
+            },
+            "retailPrice": {
+              "amountInMicros": 1787250000,
+              "currencyCode": "RUB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VeQaBwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... 3 pp EW to DR “Easter” [April 5 1942] TLS 2 pp EW to DR [April 20 1942] TLS 2 pp [Dated “Monday” on page 1, “Later” on page 2] [Dated April 23, 1942, by Kreyling \u003cb\u003ein Author\u003c/b\u003e and Agent, but the letter replies to DR&#39;s 4.17.42 letter,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ybt2ho-JH6QC",
+      "etag": "8tNDhsBuy+Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ybt2ho-JH6QC",
+      "volumeInfo": {
+        "title": "Chadha",
+        "subtitle": "The Story of an Epic Constitutional Struggle",
+        "authors": ["Barbara Hinkson Craig"],
+        "publisher": "Univ of California Press",
+        "publishedDate": "1990-03-05",
+        "description": "In 1973 Jagdish Chadha found himself a man without a country, the victim of the decolonization of Kenya where, as a Kenyan of Indian descent, he was not allowed to return after having spent six years in the U.S. as a student. Barbara Hinkson Craig describes Chadha's effort to achieve legal residency in the U.S. and shows how it led to the Supreme Court decision to overrule the legislative veto, adjusting the balance of powers in the United States government.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0520069552"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780520069558"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ybt2ho-JH6QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ybt2ho-JH6QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=ybt2ho-JH6QC&pg=PA244&dq=flowers+inauthor&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=ybt2ho-JH6QC&dq=flowers+inauthor&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Chadha.html?hl=&id=ybt2ho-JH6QC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Chadha-sample-epub.acsm?id=ybt2ho-JH6QC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Chadha-sample-pdf.acsm?id=ybt2ho-JH6QC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ybt2ho-JH6QC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Copy of Rodino letter , provided by Pohlmann , \u003cb\u003ein author&#39;s\u003c/b\u003e files . 43. Deportation Hearings , pp . 9-11 . 44. ... Copy of Chadha&#39;s deportation notice \u003cb\u003ein author&#39;s\u003c/b\u003e files . 51. ... ( Hereafter cited as \u003cb\u003eFlowers\u003c/b\u003e Hearings . ) 3. Ibid . , p ."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AsM4Q8u1OgUC",
+      "etag": "RZBBy18/+4k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AsM4Q8u1OgUC",
+      "volumeInfo": {
+        "title": "Library Bulletin",
+        "authors": ["Fitchburg Public Library"],
+        "publishedDate": "1896",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UIUC:30112042813524"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Catalogs, Classified"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AsM4Q8u1OgUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AsM4Q8u1OgUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=AsM4Q8u1OgUC&pg=RA1-PA8&dq=flowers+inauthor&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=AsM4Q8u1OgUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AsM4Q8u1OgUC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=AsM4Q8u1OgUC&rdid=book-AsM4Q8u1OgUC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.ru/books/download/Library_Bulletin.epub?id=AsM4Q8u1OgUC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AsM4Q8u1OgUC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "051 N2-9 Graham , P. A. Birds &#39; nesting : ( \u003cb\u003eIn author&#39;s\u003c/b\u003e Country pastimes . p . 1 to 100. ) 790 G Harris , A. B. How we ... Gibson , W. H. Sharp eyes : 52 weeks among insects , birds and \u003cb\u003eflowers\u003c/b\u003e . 504 G3 Hook , S. L. Little people and&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "l4aXgduXgwUC",
+      "etag": "UglWgCNWbWI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/l4aXgduXgwUC",
+      "volumeInfo": {
+        "title": "Full Many a Flower",
+        "authors": ["Ruby Dayton"],
+        "publisher": "iUniverse",
+        "publishedDate": "2000-09",
+        "description": "In the aftermath of the Great Depression, two year old Molly Whittaker's mother dies and leaves her in the care of her father, Truman, and her two brothers. Truman is desperate to keep his family together but when World War 2 begins, his older son joins and his younger son takes residence with his uncle. Truman and Molly roam the banks of the Mississippi river, he works clearing new ground and picking cotton until he gets a job operating a ferry. But, after a steamer collides with his vessel he fears for Molly's life and tries to find work elsewhere. Truman meets with a farm couple and they persuaded him to leave Molly with them. After a few years, Truman returns with a gypsy wife and her three adolescent sons. Molly is torn from a caring home and thrust into the clutches of this strange family. The Whittaker's take to the road as migrant field workers. A tent provides the only roof over their heads. Periodically, they miscalculate the harvest seasons and fine themselves destitute and near starvation. Truman soon discovers Manita ,his wife, is a soliciting prostitute and chooses to ignore the fact due to the much needed money. During a harrowing drunken episode, Manita pins Truman to the floor with a knife though his chest. Molly witnesses the event. At eight she is orphaned. Molly suffers bells palsy, leaving her face distorted. She refuses to speak. A mute, her teacher labels her incapable of learning and sends her home. Molly grows up illiterate. After the war is over, she comes to live with her brother and his wife, in the foothills of the Appalachian mountains. There, Molly triumphs over her years of adversity and becomes a prominent southern artist. She acquires an education and finds romance, love and stability..",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780595138135"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0595138136"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 374,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.3.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=l4aXgduXgwUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=l4aXgduXgwUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=l4aXgduXgwUC&pg=PA361&dq=flowers+inauthor&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=l4aXgduXgwUC&dq=flowers+inauthor&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Full_Many_a_Flower.html?hl=&id=l4aXgduXgwUC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Full_Many_a_Flower-sample-epub.acsm?id=l4aXgduXgwUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Full_Many_a_Flower-sample-pdf.acsm?id=l4aXgduXgwUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=l4aXgduXgwUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "To further her understanding of writing she enrolled \u003cb\u003ein author\u003c/b\u003e Iean Ridley&#39;s fiction writing courses. There she begin Eull Many a \u003cb\u003eFlower\u003c/b\u003e, her first book of “faction”. In the aftermath of the Great Depression, two year old."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xr6nEAAAQBAJ",
+      "etag": "/+7wZmxPevk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xr6nEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Crochet Collage Garden",
+        "subtitle": "100 patterns for crochet flowers, plants and petals",
+        "authors": ["Chris Norrington"],
+        "publisher": "David and Charles",
+        "publishedDate": "2023-03-14",
+        "description": "A collection of 100 crochet motifs arranged in 10 crochet collages based on the beautiful flowers and plants found in author, crochet designer and gardener, Chris Norrington's, stunning cottage garden. Each of the collages will have a different, sometimes seasonal, theme and the compositions will change -sometimes the plants will be in a vase or a jug, sometimes presented as a wreath or growing straight from the ground. All of the crochet motifs will have written crochet patterns so they are very accessible. You can enjoy making the same collages in the book or mix and match your favourite plants and flowers to create your own compositions. There is advice for what yarn and crochet hooks to use as well as suggestions for adapting the materials to make your own versions of the patterns.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781446381885"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1446381889"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xr6nEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xr6nEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=xr6nEAAAQBAJ&printsec=frontcover&dq=flowers+inauthor&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=xr6nEAAAQBAJ&dq=flowers+inauthor&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Crochet_Collage_Garden.html?hl=&id=xr6nEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Crochet_Collage_Garden-sample-epub.acsm?id=xr6nEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Crochet_Collage_Garden-sample-pdf.acsm?id=xr6nEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xr6nEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "All of the crochet motifs will have written crochet patterns so they are very accessible. You can enjoy making the same collages in the book or mix and match your favourite plants and flowers to create your own compositions."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a1NGAQAAMAAJ",
+      "etag": "3SfLXbsqrr4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a1NGAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Trippings in Author-land",
+        "authors": ["Emily Chubbuck Judson"],
+        "publishedDate": "1846",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "MINN:31951002102843U"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 281,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.6.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=a1NGAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=a1NGAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=a1NGAQAAMAAJ&printsec=frontcover&dq=flowers+inauthor&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=a1NGAQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a1NGAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=a1NGAQAAMAAJ&rdid=book-a1NGAQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.ru/books/download/Trippings_in_Author_land.epub?id=a1NGAQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=a1NGAQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

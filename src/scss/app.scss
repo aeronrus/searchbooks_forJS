@@ -1,0 +1,143 @@
+@import 'variables';
+@import 'libs/normalize';
+
+@import 'components/all';
+
+body {
+  background-color: rgb(255, 252, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2,
+h4 {
+  color: azure;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+p {
+  color: azure;
+  opacity: 0.8;
+  font-size: 17px;
+  font-weight: 500;
+}
+.wrapper {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: calc(100vw - 40px);
+  height: 100%;
+
+  border-radius: 10px;
+  @media (max-width: 900px) {
+    width: 890px;
+  }
+}
+
+.content {
+  text-align: center;
+  padding: 40px 0;
+  width: calc(100% - 40px);
+  border-top: 1px solid $gray-line;
+
+  &__title {
+    margin: 35px 0;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  &__items {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 11px;
+    justify-content: center;
+  }
+  &__bigImg {
+    width: 250px;
+    height: 400px;
+  }
+  &__top {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1400px) {
+  .content__items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+}
+
+@media (max-width: 950px) {
+  .content__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+}
+
+@media (max-width: 750px) {
+  .content__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+  .content__top {
+    row-gap: 70px;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+  .content__bigImg {
+    width: 180px;
+    height: 240px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2,
+  h4 {
+    margin-bottom: 10px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+  .content__top {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+}
+@media (max-width: 220px) {
+  .wrapper {
+    width: calc(100vw - 20px);
+  }
+}

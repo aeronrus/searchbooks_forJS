@@ -1,0 +1,92 @@
+{
+  "kind": "books#volume",
+  "id": "VeQaBwAAQBAJ",
+  "etag": "0XJuQB+0nhY",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/VeQaBwAAQBAJ",
+  "volumeInfo": {
+    "title": "Tell about Night Flowers",
+    "subtitle": "Eudora Welty's Gardening Letters, 1940-1949",
+    "authors": ["Julia Eichelberger"],
+    "publisher": "Univ. Press of Mississippi",
+    "publishedDate": "2013-05-01",
+    "description": "Tell about Night Flowers presents previously unpublished letters by Eudora Welty, selected and annotated by scholar Julia Eichelberger. Welty published many of her best-known works in the 1940s: A Curtain of Green, The Wide Net, The Robber Bridegroom, Delta Wedding, and The Golden Apples. During this period, she also wrote hundreds of letters to two friends who shared her love of gardening. One friend, Diarmuid Russell, was her literary agent in New York; the other, John Robinson, was a high school classmate and an aspiring writer who served in the Army in WWII, and he was long the focus of Welty’s affection. Welty’s lyrical, witty, and poignant discussions of gardening and nature are delightful in themselves; they are also figurative expressions of Welty’s views of her writing and her friendships. Taken together with thirty-five illustrations, they form a poetic narrative of their own, chronicling artistic and psychic developments that were underway before Welty was fully conscious of them. By 1949 her art, like her friendships, had evolved in ways that she would never have predicted in 1940. Tell about Night Flowers not only lets readers glimpse Welty in her garden; it also reveals a brilliant and generous mind responding to the public events, people, art, and natural landscapes Welty encountered at home and on her travels during the 1940s. This book enhances our understanding of the life, landscape, and art of a major American writer.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9781617031885"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "1617031887"
+      }
+    ],
+    "readingModes": {
+      "text": false,
+      "image": true
+    },
+    "pageCount": 304,
+    "printType": "BOOK",
+    "categories": ["Catalogs, Classified"],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=VeQaBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=VeQaBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ru/books?id=VeQaBwAAQBAJ&pg=PA230&dq=flowers+inauthor&hl=&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=VeQaBwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VeQaBwAAQBAJ"
+  },
+  "saleInfo": {
+    "country": "RU",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+      "amount": 1787.25,
+      "currencyCode": "RUB"
+    },
+    "retailPrice": {
+      "amount": 1787.25,
+      "currencyCode": "RUB"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=VeQaBwAAQBAJ&rdid=book-VeQaBwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+      {
+        "finskyOfferType": 1,
+        "listPrice": {
+          "amountInMicros": 1787250000,
+          "currencyCode": "RUB"
+        },
+        "retailPrice": {
+          "amountInMicros": 1787250000,
+          "currencyCode": "RUB"
+        }
+      }
+    ]
+  },
+  "accessInfo": {
+    "country": "RU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": false
+    },
+    "pdf": {
+      "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=VeQaBwAAQBAJ&hl=&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+  },
+  "searchInfo": {
+    "textSnippet": "... 3 pp EW to DR “Easter” [April 5 1942] TLS 2 pp EW to DR [April 20 1942] TLS 2 pp [Dated “Monday” on page 1, “Later” on page 2] [Dated April 23, 1942, by Kreyling \u003cb\u003ein Author\u003c/b\u003e and Agent, but the letter replies to DR&#39;s 4.17.42 letter,&nbsp;..."
+  }
+}
