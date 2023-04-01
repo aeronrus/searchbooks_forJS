@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import BookCard from '../components/BookCard';
+import BookSkeleton from '../components/BookSkeletn';
 import Categories from '../components/Categories';
 import Sort from '../components/Sort';
 import { selectBooks } from '../redux/books/booksSlice';
@@ -10,6 +11,7 @@ import '../scss/app.scss';
 
 const Home = () => {
   const { books, totalItems } = useSelector(selectBooks);
+  const { status } = useSelector(selectBooks);
   const booksList = books.map((item) => (
     <BookCard
       key={item.id}
@@ -20,6 +22,8 @@ const Home = () => {
     />
   ));
 
+  const skeletonList = [...new Array(10)].map((_, index) => <BookSkeleton key={index} />);
+
   const { categoryId, sortId } = useSelector(selectFilter);
 
   return (
@@ -29,7 +33,7 @@ const Home = () => {
         <Sort sortId={sortId} />
       </div>
       <div>Total books: {totalItems}</div>
-      <div className="content__items">{booksList}</div>
+      <div className="content__items">{status === 'loading' ? skeletonList : booksList}</div>
     </div>
   );
 };
