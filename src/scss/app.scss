@@ -41,11 +41,14 @@ p {
 }
 
 .content {
+  min-height: 300px;
   text-align: center;
   padding: 40px 0;
   width: calc(100% - 40px);
   border-top: 1px solid $gray-line;
-
+  h1 {
+    color: white;
+  }
   &__title {
     margin: 35px 0;
     font-size: 40px;
@@ -99,6 +102,11 @@ p {
   .content__top {
     row-gap: 70px;
   }
+  .content {
+    h1 {
+      font-size: 20px;
+    }
+  }
 }
 @media (max-width: 600px) {
   .wrapper {
@@ -108,6 +116,7 @@ p {
     width: 180px;
     height: 240px;
   }
+
   h2 {
     font-size: 20px;
   }

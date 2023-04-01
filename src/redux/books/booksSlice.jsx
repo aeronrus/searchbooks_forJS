@@ -8,7 +8,7 @@ const initialState = {
 };
 
 export const fetchBooks = createAsyncThunk('books/fetchBooks', async (params) => {
-  const { searchValue, categories, categoryId, sorts, sortId } = params;
+  const { searchValue, categories, categoryId, sorts, sortId, itemsCount } = params;
   const { data } = await axios.get(
     `https://www.googleapis.com/books/v1/volumes?q=` +
       searchValue +
@@ -16,6 +16,8 @@ export const fetchBooks = createAsyncThunk('books/fetchBooks', async (params) =>
       categories[categoryId] +
       `&orderBy=` +
       sorts[sortId] +
+      `&maxResults=` +
+      itemsCount +
       `&key=AIzaSyCmncm - PfZWBDFTmOBluAQaWct7Dfl76Io`,
   );
   return data;

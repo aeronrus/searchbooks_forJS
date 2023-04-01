@@ -4,13 +4,19 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchBooks } from '../redux/books/booksSlice';
-import { selectFilter } from '../redux/filter/filterSlice';
+import {
+  selectFilter,
+  setCategoryId,
+  setItemsCount,
+  setItemsCountNull,
+  setSortId,
+} from '../redux/filter/filterSlice';
 import '../scss/components/_header.scss';
 
 const Header = () => {
   const dispatch = useDispatch();
   const [searchValue, setSearchValue] = useState('');
-  const { categoryId, sortId } = useSelector(selectFilter);
+  const { categoryId, sortId, itemsCount } = useSelector(selectFilter);
 
   const categories = ['', 'art', 'biography', 'computers', 'history', 'medical', 'poetry'];
   const sorts = ['relevance', 'newest'];
@@ -18,11 +24,15 @@ const Header = () => {
   const updateInput = (event) => {
     setSearchValue(event.target.value);
   };
+
+  console.log('itemsCount:' + itemsCount);
   const a = 0;
-  console.log('categoryId:' + categoryId);
   const b = ['Computers'];
   const handleSearch = () => {
     try {
+      dispatch(setCategoryId(0));
+      dispatch(setSortId(0));
+      dispatch(setItemsCountNull(10));
       dispatch(
         fetchBooks({
           searchValue,
@@ -30,6 +40,7 @@ const Header = () => {
           categoryId,
           sorts,
           sortId,
+          itemsCount,
         }),
       );
     } catch (error) {
@@ -46,9 +57,10 @@ const Header = () => {
         categoryId,
         sorts,
         sortId,
+        itemsCount,
       }),
     );
-  }, [categoryId, sortId]);
+  }, [categoryId, sortId, itemsCount]);
   return (
     <div className="header">
       <div className="container">

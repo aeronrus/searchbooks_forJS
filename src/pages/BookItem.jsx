@@ -51,11 +51,16 @@ const BookItem = () => {
         </h4>
       </div>
       <Link to="/">
-        <button className="button button--outline button--add">Назад</button>
+        <button className="button button--outline button--add">Back</button>
       </Link>
     </div>
   ) : (
-    <h1>Загрузка</h1>
+    <div className="content">
+      <h1>
+        Loading Book <br />
+        Please, wait
+      </h1>
+    </div>
   );
 };
 export default BookItem;
