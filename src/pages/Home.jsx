@@ -30,6 +30,7 @@ const Home = () => {
 
   const { categoryId, sortId } = useSelector(selectFilter);
 
+  console.log(books);
   return (
     <div className="content">
       <div className="content__top">

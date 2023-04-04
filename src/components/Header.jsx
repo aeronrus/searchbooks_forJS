@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchBooks } from '../redux/books/booksSlice';
+import { fetchBooks, setBooksNull } from '../redux/books/booksSlice';
 import {
   selectFilter,
   setCategoryId,
@@ -26,13 +26,13 @@ const Header = () => {
   };
 
   console.log('itemsCount:' + itemsCount);
-  const a = 0;
-  const b = ['Computers'];
+
   const handleSearch = () => {
+    dispatch(setBooksNull());
+    dispatch(setCategoryId(0));
+    dispatch(setSortId(0));
+    dispatch(setItemsCountNull(0));
     try {
-      dispatch(setCategoryId(0));
-      dispatch(setSortId(0));
-      dispatch(setItemsCountNull(10));
       dispatch(
         fetchBooks({
           searchValue,
@@ -67,7 +67,7 @@ const Header = () => {
         <Link to="/">
           <img
             src="https://ladushki-club.ru/wp-content/uploads/f/3/4/f34ea484e2e95a981996c7ccfbd26fe1.jpeg"
-            alt="Pizza logo"
+            alt="SearchBooks"
           />
         </Link>
         <div className="container">
@@ -82,7 +82,7 @@ const Header = () => {
         </div>
         <div>
           <h1>Search for books</h1>
-          <p>Enter the name of the book</p>
+          <p>!!!Enter the name of the book</p>
         </div>
       </div>
     </div>

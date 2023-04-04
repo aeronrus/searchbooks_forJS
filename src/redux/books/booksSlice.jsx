@@ -16,9 +16,8 @@ export const fetchBooks = createAsyncThunk('books/fetchBooks', async (params) =>
       categories[categoryId] +
       `&orderBy=` +
       sorts[sortId] +
-      `&maxResults=` +
-      itemsCount +
-      `&key=AIzaSyCmncm - PfZWBDFTmOBluAQaWct7Dfl76Io`,
+      `&key=AIzaSyCmncm - PfZWBDFTmOBluAQaWct7Dfl76Io&maxResults=30&startIndex=` +
+      itemsCount,
   );
   return data;
 });
@@ -29,6 +28,9 @@ const booksSlice = createSlice({
   reducers: {
     setBooks(state, action) {
       state.books = action.payload;
+    },
+    setBooksNull(state) {
+      state.books = [];
     },
   },
   extraReducers: {
@@ -50,6 +52,6 @@ const booksSlice = createSlice({
   },
 });
 
-export const { setBooks } = booksSlice.actions;
+export const { setBooks, setBooksNull } = booksSlice.actions;
 export const selectBooks = (state) => state.book;
 export default booksSlice.reducer;

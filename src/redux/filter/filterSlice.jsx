@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
   categoryId: 0,
   sortId: 0,
-  itemsCount: 10,
+  itemsCount: 0,
 };
 
 export const filterSlice = createSlice({
