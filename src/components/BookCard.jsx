@@ -7,7 +7,7 @@ const BookCard = ({ id, title, imgUrl, authors }) => {
   return (
     <div className="book-block-wrapper">
       <div className="book-block">
-        <img className="book-block__image" src={imgUrl} alt="BookImage" />
+        <img className="book-block__image" src={imgUrl} alt="The cover of the book is missing" />
         <h4 className="book-block__title">{title}</h4>
         <div className="book-block__bottom">
           <div>Authors: {author} </div>
