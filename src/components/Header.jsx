@@ -7,8 +7,8 @@ import { fetchBooks, setBooksNull } from '../redux/books/booksSlice';
 import {
   selectFilter,
   setCategoryId,
-  setItemsCount,
-  setItemsCountNull,
+  setStartIndex,
+  setStartIndexNull,
   setSortId,
 } from '../redux/filter/filterSlice';
 import '../scss/components/_header.scss';
@@ -16,7 +16,7 @@ import '../scss/components/_header.scss';
 const Header = () => {
   const dispatch = useDispatch();
   const [searchValue, setSearchValue] = useState('');
-  const { categoryId, sortId, itemsCount } = useSelector(selectFilter);
+  const { categoryId, sortId, startIndex } = useSelector(selectFilter);
 
   const categories = ['', 'art', 'biography', 'computers', 'history', 'medical', 'poetry'];
   const sorts = ['relevance', 'newest'];
@@ -25,13 +25,13 @@ const Header = () => {
     setSearchValue(event.target.value);
   };
 
-  console.log('itemsCount:' + itemsCount);
+  console.log('startIndex:' + startIndex);
 
   const handleSearch = () => {
     dispatch(setBooksNull());
     dispatch(setCategoryId(0));
     dispatch(setSortId(0));
-    dispatch(setItemsCountNull(0));
+    dispatch(setStartIndexNull(0));
     try {
       dispatch(
         fetchBooks({
@@ -40,7 +40,7 @@ const Header = () => {
           categoryId,
           sorts,
           sortId,
-          itemsCount,
+          startIndex,
         }),
       );
     } catch (error) {
@@ -57,10 +57,10 @@ const Header = () => {
         categoryId,
         sorts,
         sortId,
-        itemsCount,
+        startIndex,
       }),
     );
-  }, [categoryId, sortId, itemsCount]);
+  }, [categoryId, sortId, startIndex]);
   return (
     <div className="header">
       <div className="container">

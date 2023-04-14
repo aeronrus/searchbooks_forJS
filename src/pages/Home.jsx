@@ -5,7 +5,7 @@ import BookSkeleton from '../components/BookSkeleton';
 import Categories from '../components/Categories';
 import Sort from '../components/Sort';
 import { selectBooks } from '../redux/books/booksSlice';
-import { selectFilter, setItemsCount } from '../redux/filter/filterSlice';
+import { selectFilter, setStartIndex } from '../redux/filter/filterSlice';
 
 import '../scss/app.scss';
 
@@ -14,7 +14,7 @@ const Home = () => {
   const { books, totalItems } = useSelector(selectBooks);
   const { status } = useSelector(selectBooks);
   const onClickPagination = () => {
-    dispatch(setItemsCount(30));
+    dispatch(setStartIndex(30));
   };
   const booksList = books.map((item) => (
     <BookCard
@@ -40,8 +40,8 @@ const Home = () => {
       <div>Total books: {totalItems}</div>
       <div className="content__items">{status === 'loading' ? skeletonList : booksList}</div>
       <div className="pagination">
-        <button onClick={onClickPagination} className="button button--outline button--add">
-          <h2>Load more </h2>
+        <button className="button button--outline button--add">
+          <h2 onClick={onClickPagination}>Load more </h2>
         </button>
       </div>
     </div>

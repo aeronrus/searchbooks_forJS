@@ -8,16 +8,12 @@ const initialState = {
 };
 
 export const fetchBooks = createAsyncThunk('books/fetchBooks', async (params) => {
-  const { searchValue, categories, categoryId, sorts, sortId, itemsCount } = params;
+  const { searchValue, startIndex } = params;
   const { data } = await axios.get(
     `https://www.googleapis.com/books/v1/volumes?q=` +
       searchValue +
-      `+subject:` +
-      categories[categoryId] +
-      `&orderBy=` +
-      sorts[sortId] +
       `&key=AIzaSyCmncm - PfZWBDFTmOBluAQaWct7Dfl76Io&maxResults=30&startIndex=` +
-      itemsCount,
+      startIndex,
   );
   return data;
 });
@@ -41,7 +37,7 @@ const booksSlice = createSlice({
     },
     [fetchBooks.fulfilled]: (state, action) => {
       state.status = 'loaded';
-      state.books = action.payload.items;
+      state.books.push(...action.payload.items);
       state.totalItems = action.payload.totalItems;
     },
     [fetchBooks.rejected]: (state) => {
