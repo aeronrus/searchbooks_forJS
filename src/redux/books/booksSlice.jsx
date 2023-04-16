@@ -23,7 +23,7 @@ const booksSlice = createSlice({
   initialState: initialState,
   reducers: {
     setBooks(state, action) {
-      state.books = action.payload;
+      state.books.push(...action.payload.items);
     },
     setBooksNull(state) {
       state.books = [];
@@ -32,7 +32,6 @@ const booksSlice = createSlice({
   extraReducers: {
     [fetchBooks.pending]: (state) => {
       state.status = 'loading';
-      state.books = [];
       state.totalItems = 0;
     },
     [fetchBooks.fulfilled]: (state, action) => {

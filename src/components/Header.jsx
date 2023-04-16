@@ -7,7 +7,6 @@ import { fetchBooks, setBooksNull } from '../redux/books/booksSlice';
 import {
   selectFilter,
   setCategoryId,
-  setStartIndex,
   setStartIndexNull,
   setSortId,
 } from '../redux/filter/filterSlice';
@@ -25,14 +24,12 @@ const Header = () => {
     setSearchValue(event.target.value);
   };
 
-  console.log('startIndex:' + startIndex);
-
-  const handleSearch = () => {
-    dispatch(setBooksNull());
-    dispatch(setCategoryId(0));
-    dispatch(setSortId(0));
-    dispatch(setStartIndexNull(0));
+  const handleSearch = async () => {
     try {
+      await dispatch(setBooksNull());
+      await dispatch(setCategoryId(0));
+      await dispatch(setSortId(0));
+      await dispatch(setStartIndexNull(0));
       dispatch(
         fetchBooks({
           searchValue,
@@ -82,7 +79,7 @@ const Header = () => {
         </div>
         <div>
           <h1>Search for books</h1>
-          <p>!!!Enter the name of the book</p>
+          <p>Enter the name of the book</p>
         </div>
       </div>
     </div>
