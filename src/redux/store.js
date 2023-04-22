@@ -1,4 +1,4 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 import booksReducer from './books/booksSlice';
 import filterSlice from './filter/filterSlice';
 

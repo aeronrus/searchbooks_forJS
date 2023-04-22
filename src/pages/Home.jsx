@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import BookCard from '../components/BookCard';
 import BookSkeleton from '../components/BookSkeleton';

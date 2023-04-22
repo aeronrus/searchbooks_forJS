@@ -30,7 +30,11 @@ const BookItem = () => {
 
   return loaded ? (
     <div className="content">
-      <img className="content__bigImg" src={book.volumeInfo?.imageLinks.thumbnail} />
+      <img
+        className="content__bigImg"
+        src={book.volumeInfo?.imageLinks.thumbnail}
+        alt="Book`s avatar"
+      />
       <div className="container">
         {' '}
         <h2>{book.volumeInfo.title}</h2>
